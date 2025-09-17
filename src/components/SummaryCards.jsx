@@ -1,6 +1,6 @@
 const SummaryCards = () => {
   const cards = [
-    { title: "Total Dustbins", value: 12, color: "bg-blue-800",  icon: "/public/delete_icon.svg" },
+    { title: "Total Dustbins", value: 12, color: "bg-blue-800",  icon: "/delete_icon.svg" },
     { title: "Empty Dustbins", value: 7, color: "bg-green-800",  icon: "/bucket_check_icon.svg" },
     { title: "Half-full Dustbins", value: 3, color: "bg-yellow-800",  icon: "/warning_icon.svg" },
     { title: "Full Dustbins", value: 2, color: "bg-red-800",  icon: "/delete_icon.svg" },
