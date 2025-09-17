@@ -46,6 +46,7 @@ setLat("");
 setLng(""); 
 setFillLevel(0); 
 setStatus("empty");
+setLoading(false);
 
   
   }
