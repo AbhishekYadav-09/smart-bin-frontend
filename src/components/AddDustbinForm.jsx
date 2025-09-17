@@ -46,8 +46,6 @@ setLat("");
 setLng(""); 
 setFillLevel(0); 
 setStatus("empty");
-setLoading(false);
-
   
   }
   return (
@@ -83,7 +81,7 @@ setLoading(false);
           disabled={loading}
           className="bg-green-600 hover:bg-green-700 text-white p-2 rounded"
         >
-          {loading ? "Adding..." : "Add Bin"}
+          {loading? "Adding..." : "Add Bin"}
         </button>
       </form>
     </div>
