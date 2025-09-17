@@ -1,6 +1,6 @@
 
 const API_URL_GET = "https://api-smart-bin.onrender.com/api/v1/bin";
-const API_URL_POST = "https://api-smart-bin.onrender.com/register";
+const API_URL_POST = "https://api-smart-bin.onrender.com/api/v1/bin/register";
 
 export const getBins = async () => {
   try {
